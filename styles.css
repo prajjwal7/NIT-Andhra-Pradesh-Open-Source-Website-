@@ -1,0 +1,161 @@
+body{
+  overflow-x:hidden;
+}
+
+/*---NAVBAR---*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: 0.1rem;
+  background:rgba(105,100,200,0.75)!important;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .navbar-link{
+  color:white;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .navbar-link .active ,
+.navbar-dark .navbar-nav .navbar-link :hover{
+
+}
+/*----home---*/
+#home{
+  width:inherit;
+  background-image:url('cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+}
+#logo{
+color:white;
+padding-top:35%;
+}
+.main{
+  font-size: 60px!important;
+}
+/*----home---*/
+
+/*---introduction---*/
+#introduction{
+  background:rgba(121,150,202,1);
+  width:inherit;
+  height:100vh;
+}
+#quote{
+  height:auto;
+  padding:5% 25% 1% 25%;
+  padding-bottom:1%;
+  font-size:35px;
+  margin-bottom: 3%;
+  font-style:italic;
+  color:rgba(0,255,0);
+}
+.lead{
+  font-size:2rem;
+  padding-bottom:25px;
+}
+cite{
+  padding-left:55%;
+  font-family: serif;
+}
+/*---introduction---*/
+
+/*---goal---*/
+#goal{
+  width:inherit;
+  background-image: url('goal.webp');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+}
+#goals{
+  padding:7% 20%;
+  padding-bottom: 9%;
+  font-size:28px;
+  font-weight: 200;
+  font-family:Copperplate Gothic Light;
+}
+/*---goal---*/
+
+
+/*---events---*/
+.evepic{
+  margin-top:25px;
+  margin-bottom: 60px;
+  margin-left: 33%;
+}
+.descrip{
+  font-size: 25px;
+  top:70%;
+  padding-top:80px;
+}
+.dash{
+  margin-bottom:-200px;
+}
+#events{
+  background: rgba(113,243,80);
+  width:inherit;
+  height:765px;
+}
+.tall{
+  height: 400px;
+}
+/*---events---*/
+
+
+/*---projects---*/
+#projects{
+  height:100vh;
+}
+/*---projects---*/
+.hed{
+  font-size:60px;
+  font-family:times;
+  text-decoration: overline;
+  font-weight: 150;
+  padding-top: 5%;
+}
+
+@media only screen and ( max-width : 800px){
+
+  #main{
+    font-size: 40px;
+  }
+  #sub{
+    font-size: 30px;
+  }
+  blockquote{
+    font-size:20px;
+  }
+  cite{
+    font-size:15px;
+  }
+  .evepic{
+    margin-left: 15%;
+    margin-top:15%;
+  }
+  .evepic img{
+    height:80%;
+    width:80%;
+  }
+  .descrip{
+    margin-bottom:-20%;
+    padding-top:3rem;
+  }
+  .heading{
+    margin-bottom:20%;
+  }
+  #goals{
+    font-size:18px;
+  }
+  .hed{
+    padding-top:10%;
+  }
+  #introduction p{
+    font-size:25px;
+  }
+
+}
